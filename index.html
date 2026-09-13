@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ParfumStore — изысканные ароматы</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <div class="logo">ParfumStore</div>
+      <button class="mobile-toggle" onclick="toggleMenu()">☰</button>
+      <nav>
+        <ul id="nav-menu">
+          <li><a href="#">Главная</a></li>
+          <li><a href="#">Каталог</a></li>
+          <li><a href="#">Хиты сезона</a></li>
+          <li><a href="#">О бренде</a></li>
+          <li><a href="#">Контакты</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <h1>Искусство ароматов</h1>
+        <p>Откройте мир изысканных парфюмов — каждый флакон рассказывает свою историю.</p>
+      </section>
+
+      <h2>Наши бестселлеры</h2>
+      <div class="products-grid">
+        <div class="product-card">
+          <img src="https://via.placeholder.com/250x250?text=Bloom" alt="Eternal Bloom">
+          <h3>Eternal Bloom</h3>
+          <p class="price">5 990 ₽</p>
+          <button>В корзину</button>
+        </div>
+        <div class="product-card">
+          <img src="https://via.placeholder.com/250x250?text=Oud" alt="Midnight Oud">
+          <h3>Midnight Oud</h3>
+          <p class="price">7 490 ₽</p>
+          <button>В корзину</button>
+        </div>
+        <div class="product-card">
+          <img src="https://via.placeholder.com/250x250?text=Breeze" alt="Ocean Breeze">
+          <h3>Ocean Breeze</h3>
+          <p class="price">4 890 ₽</p>
+          <button>В корзину</button>
+        </div>
+        <div class="product-card">
+          <img src="https://via.placeholder.com/250x250?text=Amber" alt="Golden Amber">
+          <h3>Golden Amber</h3>
+          <p class="price">6 290 ₽</p>
+          <button>В корзину</button>
+        </div>
+      </div>
+
+      <section class="notes-block">
+        <div class="note-tag">Цветочные</div>
+        <div class="note-tag">Древесные</div>
+        <div class="note-tag">Восточные</div>
+        <div class="note-tag">Цитрусовые</div>
+        <div class="note-tag">Пряные</div>
+        <div class="note-tag">Мускусные</div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 ParfumStore. Все права защищены.</p>
+      <p style="margin-top: 8px; font-size: 0.9em; opacity: 0.8;">
+        Доставка по всей России • Гарантия подлинности
+      </p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
